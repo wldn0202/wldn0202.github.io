@@ -1,0 +1,127 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: https://github.com/wldn0202/
+date_format: "ordinal"
+title: ppuzzle
+subtitle: "이것저것 적는 블로그.."
+description: "심심해서 만든 블로그"
+keywords: main
+timezone: Asia/Seoul
+encoding: "utf-8"
+side_bar_repo_limit: 2
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+
+author: Jiwoo
+year: 2019
+organization: 
+organization_url: 
+github_username: wldn0202
+location: Seoul, South Korea
+email: wldn0202@naver.com
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 홈
+
+  -
+    href: /categories/
+    label: 카테고리
+
+#   -
+#     href: /archives/
+#     label: 전체
+
+  -
+    href: /wiki/
+    label: 위키
+
+  -
+    href: /links/
+    label: 링크
+
+  -
+    href: /about/
+    label: 소개
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 10
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+gems:
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+repository: wldn0202/wldn0202.github.io
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk
+comments_provider: gitalk
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+# https://disqus.com
+disqus:
+    username: 
+# https://imsun.net/posts/gitment-introduction/
+#gitment:
+#    owner: wldn0202
+#    repo: blog-comments
+#    oauth:
+#        client_id: d2e1cbbd298958076462
+#        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+# https://github.com/gitalk/gitalk#install
+#gitalk:
+#    owner: wldn0202
+#    repo: blog-comments
+#    clientID: d2e1cbbd298958076462
+#    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+# 在使用其它评论组件时可点击显示 Disqus
+lazy_load_disqus : false
+
+# ---------------- #
+#      Search      #
+# ---------------- #
+simple_jekyll_search:
+    # 是否支持全文搜索
+    fulltext: false
+    # 最多显示多少条搜索结果
+    limit: 2
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+google:
+    analytics_id: UA-80669434-1

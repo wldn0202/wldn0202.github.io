@@ -1,0 +1,11 @@
+- name: 블로그
+  url: https://github.com/wldn0202.github.io
+  src: life
+
+- name: google
+  url: https://google.com
+  src: www
+
+- name: naver
+  url: https://www.naver.com
+  src: www
