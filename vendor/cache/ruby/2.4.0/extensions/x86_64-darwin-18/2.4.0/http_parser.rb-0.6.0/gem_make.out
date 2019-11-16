@@ -1,0 +1,16 @@
+current directory: /Users/jeongjiwoo/Desktop/code/github_blog/wldn0202.github.io/vendor/cache/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/Users/jeongjiwoo/.rvm/rubies/ruby-2.4.2/bin/ruby -r ./siteconf20191116-59035-c7800k.rb extconf.rb
+creating Makefile
+
+current directory: /Users/jeongjiwoo/Desktop/code/github_blog/wldn0202.github.io/vendor/cache/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /Users/jeongjiwoo/Desktop/code/github_blog/wldn0202.github.io/vendor/cache/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/jeongjiwoo/Desktop/code/github_blog/wldn0202.github.io/vendor/cache/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 ruby_http_parser.bundle ./.gem.20191116-59035-7o5pd3
