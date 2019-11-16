@@ -1,1 +1,0 @@
-/Users/jeongjiwoo/Desktop/code/github_blog/wldn0202.github.io/vendor/cache/ruby/2.4.0/gems/ffi-1.11.2/ext/ffi_c/libffi/src/x86/ffitarget.h
