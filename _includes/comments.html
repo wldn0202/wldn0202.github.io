@@ -21,7 +21,7 @@
                 s.async = true;
                 var shortname = '{{ site.disqus.username }}';
 
-                s.src = '//' + shortname + '.disqus.com/embed.js';
+                s.src = 'https://www-github-com-wldn0202-wldn0202-github-io.disqus.com/embed.js';
 
                 s.setAttribute('data-timestamp', +new Date());
                 (d.head || d.body).appendChild(s);
@@ -39,13 +39,6 @@
     {% when 'disqus' %}
       {% if site.disqus and site.disqus.username %}
         {% assign load_disqus = true %}
-        <!-- Disqus Protection, see https://github.com/mzlogin/mzlogin.github.io/issues/2 -->
-        {% if site.disqus.username == 'mzlogin' %}
-          {% assign load_disqus = false %}
-          {% if site.url contains 'mazhuang.org' %}
-            {% assign load_disqus = true %}
-          {% endif %}
-        {% endif %}
         {% if load_disqus %}
           <div id="disqus_thread"></div>
           <script>
