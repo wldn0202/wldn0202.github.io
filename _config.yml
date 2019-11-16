@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://github.com/wldn0202/
+url: https://wldn0202.github.io
 date_format: "ordinal"
 title: ppuzzle
 subtitle: "이것저것 적는 블로그.."
