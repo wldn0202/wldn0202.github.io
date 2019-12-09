@@ -48,3 +48,13 @@ git push origin master
 그냥 인터넷 쳐도 잘 나옴
 
 6. git을 gui로 이용할 수 있다!
+
+## git cherry-pick 커밋 한번에 여러개 찍기
+**
+1. .. 명령을 이용한다.
+
+2. 앞에 나오는 커밋이 더 이전의 커밋이어야한다.
+
+3. ex) git cherry-pick br1~5..br1
+
+4. 이렇게 찍으면 br1 브랜치의 앞 5개 커밋이 cherry-pick 된다.
