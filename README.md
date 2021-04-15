@@ -1,3 +1,3 @@
 blog url : https://wldn0202.github.io
 
-design 참고 blog : https://github.com/mzlogin/mzlogin.github.io
+design 출처 : https://github.com/mzlogin/mzlogin.github.io
