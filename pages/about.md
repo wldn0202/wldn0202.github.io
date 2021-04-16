@@ -3,7 +3,7 @@ layout: page
 title: About
 description: about
 keywords: main
-comments: true
+comments: false
 menu: 소개
 permalink: /about/
 ---
