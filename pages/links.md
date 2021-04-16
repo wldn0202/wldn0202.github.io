@@ -3,7 +3,7 @@ layout: page
 title: Links
 description: 링크
 keywords: 링크
-comments: true
+comments: false
 menu: 링크
 permalink: /links/
 ---
